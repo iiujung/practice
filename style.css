@@ -1,0 +1,446 @@
+/* #6c72ae*/
+
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #171c5d;
+}
+/* header---------------------------- */
+.logo svg {
+    color: #fff;
+    height: 43px;
+    width: 129px;
+}
+.nav a {
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.nav-top {
+    width:100%;
+    margin: 25px 0;
+}
+
+#collapsibleNavbar ul a:hover {
+    color: #9496b8;
+}
+
+#collapsibleNavbar ul {
+    margin:0 50px;
+}
+
+#collapsibleNavbar ul a{
+color: #fff;
+transition:0.3s ease;
+}
+
+#collapsibleNavbar button {
+    font-size: 16px;
+    background-color: #f6c8f1;
+    border-color: #f6c8f1;
+    color: #171c5d;
+    padding: 8px  12px ;
+    width: 150px;
+    height: 50px;
+} 
+/* hero----------------------------- */
+
+.hero-title {
+    font-weight: 400;
+    font-size: 83px;
+    color: #fff;
+    max-width: 674px;
+
+}
+
+.hero-lead {
+    font-size: 24px;
+    color: #6c72ae;
+    max-width: 568px;
+}
+
+.hero button {
+    background-color:  rgb(255, 126, 133);
+    border-color: rgb(255, 126, 133);
+    font-weight: 600;
+    color: #fff;
+    padding: 18px 48px;
+    font-size: 27px;
+}
+
+.hero-right {
+    width: 500px;
+    height: 600px;
+}
+
+.hero-right img {
+    /* ! */
+    width: 100%;
+    object-fit: cover;
+}
+
+/* main--------------------------- */
+main {
+    background-color: #f3eae5;
+    position: relative;
+}
+/* ----cols */
+.cols-main h2{
+color: #0e1889;
+font-size: 43px;
+line-height: 44px;
+font-weight: 400;
+max-width: 580px;
+}
+
+.cols-main span {
+    color: #dd59cf;
+}
+
+.cols-title {
+    font-weight: 600;
+    color: #3e3c43;
+}
+
+.cols-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cols-img {
+    height: 70px;
+    width: 70px;
+}
+
+.cols-img img{
+    width: 100%;
+}
+/* ---hand&banana */
+.features-img img{
+ width: 100%;
+}
+.features-title {
+    font-size: 56px;
+    line-height: 52px;
+    font-weight: 400;
+    max-width: 590px;
+    color: #0e1889;
+}
+
+.features-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: #3e3c43;
+    max-width: 590px;
+}
+/* ----bar */
+.bar-main {
+    max-width: 850px;
+}
+.bar-main h2 {
+    font-size: 43px;
+    line-height:  44px;
+    color: #3e3c43;
+}
+
+.bar-main p{
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: #ab9182;
+}
+
+.bar-main span {
+color: #118391;
+}
+
+
+.bar-cols p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.cols-item p {
+    color: #fd91ab;
+    
+}
+.cols-item-2 p {
+    color: #ff937e;
+}
+.cols-item-3 p {
+    color: #ffa541;
+}
+
+.cols-item .progress-bar {
+    background-color: #fd91ab;
+}
+
+.cols-item-2 .progress-bar {
+    background-color: #ff937e;
+}
+
+.cols-item-3 .progress-bar {
+    background-color:  #ffa541;
+}
+/* ----two card */
+.two-card-1 {
+    background-color: #ffb283;
+    /* padding: 25px 25px -25px; */
+    height: 470px;
+    border-radius: 15px;
+}
+.two-card-1 img, .two-card-2 img {
+    width: 100%;
+    object-fit: cover;
+
+}
+.two-card-2 {
+    background-color: #206871;
+    height: 470px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.two-card-1 p{
+    font-size: 52px;
+    line-height: 55px;
+    font-weight: 400;
+    color: #206871;
+    padding: 0 0 20px ;
+}
+.two-card-2 p{
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 0 20px ;
+
+}
+/* ----Einstein */
+.mini-tags {
+    width: 450px;
+}
+
+
+.mini-tags .tags-item {
+    width: 250px;
+    height: 55px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin: 5px 20px 35px;
+    float: left;
+   
+   
+}
+.mini-tags p{
+    /* position: relative; */
+    padding: 5px;
+    color: #7a7780;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.arrow {
+display: flex;
+float: left;    
+}
+
+.arrow.one {
+    width: 80px;
+    height: 25px;
+    background: url("./images/arrow1.png") no-repeat ;
+
+}
+.arrow.two {
+    width: 50px;
+    height: 25px ;
+    background: url("./images/arrow2.png") no-repeat ;
+}
+.arrow.three {
+    width: 125px;
+    height: 25px ;
+    background: url("./images/arrow3.png") no-repeat ;
+}
+.arrow.four {
+    width: 100px;
+    height: 25px ;
+    background: url("./images/arrow4.png") no-repeat ;
+}
+
+.head {
+    margin-left: -100px;
+}
+
+.head p{
+color: #7a7780;
+font-size: 22px;
+font-weight: 600 ;
+text-align: center;
+padding: 30px 0 0;
+}
+
+.big-tags .tags-item-one  {
+    border: 2px solid #40ac76;
+    border-radius: 5px;
+    margin: 50px 0 auto;
+    min-height: 280px;
+}
+
+.big-tags .tags-item-two {
+    border: 2px solid #33abb9;
+    border-radius: 5px;
+    margin: 50px 0 auto;
+    min-height: 280px;
+}
+
+.tags-item-one h4 {
+    font-size: 22px;
+    color: #40ac76;
+}
+
+.tags-item-two h4 {
+    font-size: 22px;
+    color: #33abb9;
+}
+
+.big-tags p{
+    font-size: 16px;
+    color: #7a7780;
+}
+/* ---- three card ?how to use last-child? */
+.card-img-top {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.card-img-top img {
+    height: 100%;
+    object-fit: cover;
+    margin: 37px auto 33px;
+
+}
+
+
+
+.three-card .card {
+    padding: 1rem;
+}
+
+.three-card p {
+    color: #7a7780;
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-body-1 h5 {
+    color: #dd59cf;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-body-2 h5{
+    color: #40ac76;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-body-3 h5{
+    color: #ffa541;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.smtag {
+    text-align: center;
+    width: 110px;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 6px 12px 5px;
+    margin: 0;
+}
+
+.three-card .tag-1 {
+    background-color: #fdd7f5;
+    color: #b358be;
+}
+
+.three-card .tag-3 {
+    background-color: #fdd5c3;
+    color: #be7558;
+}
+
+.three-card .tag-2 {
+    background-color: #bdedd5;
+    color: #3d9f6e;
+}
+
+
+
+
+/* ----get demo card */
+.jumbotron {
+    background-color: #ffd02d;
+    border-radius: 4px;
+    padding: 49px 246px 46px 46px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    /* width: 1100px; */
+}
+.jumbotron h1 {
+    color:#ff7399 ;
+    font-weight: 600;
+    font-size: 69px;
+}
+
+.jumbotron p {
+    color:#fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.card-img {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.input-group {
+    width: 350px;
+}
+
+button {
+    background-color: #fff;
+}
+
+
+/* footer------------------------- */
+footer {
+    font-size: 18px;
+    color: #7c80ad;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+
+.bottom-bg {
+    width:100%;
+    position:absolute;
+    height:200px;
+    bottom:0;
+    background-color: #171c5d;
+    z-index:1;
+}
+
